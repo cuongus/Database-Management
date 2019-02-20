@@ -1,0 +1,59 @@
+p{
+	text-align: center;
+}
+a{	
+	font-family: Arial;
+	color:#34404b;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 2.0;
+}
+span{
+	line-height: 1.5;
+	font-family: Arial;
+	color:#ff5912;
+	font-size: 18px;
+}
+body{
+	/*background-image: url(images/nature-3048299__340.jpg);
+	background-size: cover;*/
+}
+.list{
+	width: 1000px;
+	background-color: #f4f6f8;
+	float: left;
+}
+.item{
+	width: 250px;
+	height: 347px;
+	border: 1px solid red;/* dashed dotted */
+	/*background: green;*/
+	background-color: white;
+	margin: 15px;
+	padding:10px;
+	float:left;
+}
+
+li {
+	list-style-type: none;
+}
+.left{
+	float: left;
+	width: 270px;
+}
+.right{
+	float: left;
+	width: 900px;
+}
+.block{
+	float:left;
+	width: 270px;
+}
+.ba_cham{
+	float:left;
+	width: 900px;
+}
+@media screen and (max-width: 992px){
+	
+}
+

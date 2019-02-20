@@ -1,0 +1,414 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f4f6f8;
+	color: #28313b;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: 'Aleo', serif;
+}
+a{
+	text-decoration: none;
+	color: #34404b;
+}
+li{
+	list-style-type: none;
+}
+.section{
+	width: 100%;
+	float: left;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/* CSS secion_1 */
+.section_1{
+	background-color: #ffffff;
+	font-size: 12px;
+	border-bottom: 1px solid #f4f6f8;
+}
+.section1_2{
+	text-align: right;
+}
+.section1_1 li{
+	display: inline-block;
+}
+.section1_2 li{
+	display: inline-block;
+}
+.section_1 ul{
+	display: block;
+	height: 60px;
+}
+.section_1 li{
+	line-height: 60px;
+}
+.section1_1 a{
+	padding-right: 10px; 
+}
+.section1_1 img{
+	vertical-align: middle;
+}
+.section1_2 a{
+	padding-left: 20px;
+}
+
+/* CSS section_2*/
+.section_2{
+	background-color: #ffffff;
+	font-size: 16px;
+	color: #34404b;
+}
+.section_2 li{
+	display: inline-block;
+}
+.section2_2 ul{
+	margin: 0px -21px;
+}
+.section_2 img{
+	vertical-align: middle;
+}
+.section2_1 a{
+	padding-right: 56px;
+}
+.section2_2 a{
+	padding: 0px 21px;
+}
+.section2_2 a:hover{
+	color: #ff5912;
+}
+.section2_3 a{
+	padding-left: 30px;
+}
+.section2_1 img{
+	vertical-align: middle;
+}
+.section2_1{
+	height: 120px;
+	line-height: 120px;
+}
+.section2_2{
+	height: 120px;
+	line-height: 120px;
+}
+.section2_3{
+	height: 120px;
+	line-height: 120px;
+}
+/* CSS section_3 */
+.container_3{
+	padding-top: 118px;
+}
+
+/* CSS column Left */
+.list1{
+	margin-left: -15px;
+}
+.block{
+	width: calc(100% - 30px);
+	padding: 14.5px 15px;
+}
+.block-content{
+	width: calc(100% - 57px);
+	background: #ffffff;
+	padding-top: 42px;
+	padding-right: 15px;
+	padding-left: 42px;
+}
+.block-content h3{
+	padding-bottom: 38px;
+	color: #ff5912;
+	font-size: 16px;
+	font-weight: 700;
+}
+.block-content li{
+	padding: 19px 0px;
+	color: #34404b;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+/* check box*/
+.block-sizes input{
+	display: none; 
+}
+.block-sizes li{
+
+}
+.block-sizes label:before{
+	content: "";
+	width: 16px;
+	height: 15px;
+	background-color: #edf0f2;
+	border: 6px solid #ffffff;
+	margin-right: 10px;
+	float: left;
+}
+.block-sizes input:checked + label{
+	color: #ff5912;
+}
+.block-sizes input:checked + label:before{
+	background-color: #ffffff;
+	border: 4px solid #ff5912;
+}
+
+.block-brands input{
+	display: none;
+}
+.block-brands li{
+
+}
+.block-brands label:before{
+	content: "";
+	width: 16px;
+	height: 15px;
+	background-color: #edf0f2;
+	border: 6px solid #ffffff;
+	margin-right: 10px;
+	float: left;
+}
+.block-brands input:checked + label{
+	color: #ff5912;
+}
+.block-brands input:checked + label:before{
+	background-color: #ffffff;
+	border: 4px solid #ff5912;
+}
+
+/* CSS Right */
+.list2{
+	margin-right: -15px;
+}
+.item{
+	padding: 15px;
+	text-align: center;
+}
+.item-content{
+	width: 100%;
+	height: 347px;
+	background-color: #ffffff;
+}
+.ba_cham{
+	width: calc(100% - 30px);
+	padding: 15px;
+	float: left;
+	text-align: center;
+}
+.ba_cham-content{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #ffffff; 
+	letter-spacing: 5px;
+	color: #ff5912;
+	font-weight: 700;
+}
+/* CSS box */
+.box-red{
+	width: 15px;
+	height: 15px;
+	background-color: #e12e3f;
+	border-radius: 100%;
+	display: inline-block; 
+}
+.box-black{
+	width: 15px;
+	height: 15px;
+	background-color: #34404b;
+	border-radius: 100%;
+	display: inline-block;
+}
+.box-blue{
+	width: 15px;
+	height: 15px;
+	background-color: #3ab3ff;
+	border-radius: 100%;
+	display: inline-block;
+}
+.box-green{
+	width: 15px;
+	height: 15px;
+	background-color: #2fd967;
+	border-radius: 100%;
+	display: inline-block;
+}
+.box_color{
+	padding: 10px 0px;
+	letter-spacing: 5px;
+}
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  	width: 60%;
+  	color: #f4f6f8;
+}
+.box_status{
+	padding: 10px 0px;
+}
+.box_status li{
+	display: inline-block;
+}
+.box_status a{
+	padding: 0px 10px;
+}
+.fighover{
+	display: none;
+}
+.item-content:hover figure{
+	display: none;
+}
+.item-content:hover .fighover{
+	display: block;
+}
+
+.name{
+	color: #34404b;
+	font-size: 18px;
+	font-weight: 700;
+}
+.item_price{
+	color: #ff5912;
+	font-size: 18px;
+	font-weight: 700;
+}
+.fighover .name{
+	color: #ff5912;
+}
+.pic{
+	padding:30px 0px;
+}
+/* CSS Section_4*/
+.section_4{
+	padding: 100px 0px;
+}
+
+.section4_1{
+	float: left;
+	width: 50%;
+	background-color: #ffffff;
+}
+.section4_2{
+	float: right;
+	width: 50%;
+	text-align: right;
+	background-color: #ffffff;
+}
+.section_4 li {
+	display: inline-block;
+}
+.section_4 img{
+	vertical-align: middle;
+}
+.section4_1 li{
+	display: inline-block;
+	padding-top: 51px;
+	padding-bottom: 51px;
+}
+.section4_2 li{
+	display: inline-block;
+	padding-top: 36px;
+	padding-bottom: 43px;
+}
+.sec4_news{
+	font-weight: 700;
+	color: #ff5912;
+	font-size: 18px;
+	padding-right: 24px;
+	padding-left: 56px;
+}
+.joinus{
+	padding-right: 43px;
+	padding-left: 160px;
+}
+.sec4_icomail{
+	padding-right: 10px;
+}
+.sec4_text1{
+	color: #34404b;
+	font-size: 14px;
+	font-style: italic;
+}
+.sec4_text2{
+	color: #7c8791;
+	font-size: 14px;
+	font-style: italic;
+}
+/* CSS section_5 */
+.section_5{
+	background: #ffffff;
+}
+.section5_1{
+	float: left;
+	width: 25%;
+	padding: 90px 0px;
+}
+.section5_2{
+	float: left;
+	width: 55%;
+	padding: 90px 0px;
+}
+.section5_3{
+	float: right;
+	width: 20%;
+	text-align: right;
+	padding: 98px 0px;
+}
+.section5_1 img{
+	padding-bottom: 10px;
+}
+
+.sec5_2-div1{
+	float: left;
+	width: calc(100% / 3 - 20px);
+	padding: 0px 10px;
+}
+.sec5_2-div2{
+	float: left;
+	width: calc(100% / 3 - 20px);
+	padding: 0px 10px;
+}
+.sec5_2-div3{
+	float: right;
+	width: calc(100% / 3 - 20px);
+	padding: 0px 10px;
+}
+.div1-content{
+	width: calc(100 - 50px);
+	padding: 0px 25px;
+}
+.div2-content{
+	width: calc(100 - 50px);
+	padding: 0px 25px;
+}
+.div3-content{
+	width: calc(100 - 50px);
+	padding: 0px 25px;
+}
+.section5_2 li{
+	padding-bottom: 10px;
+	list-style-type: disc;
+}
+.section5_2 li:hover a{
+	color: #ff5912;
+}
+.section5_2 li:hover{
+	color: #ff5912;
+}
+.section5_3 img{
+	padding-top: 20px;
+}
+.sec5_3-text {
+	color: #ff5912;
+	font-weight: 600;
+	padding-right: 54px; 
+}
