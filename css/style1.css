@@ -1,5 +1,6 @@
 .section{
  	background-color: #ffffff;
+	font-size: 14px;
 }
 
 .container{
@@ -88,6 +89,27 @@ ul{
 }
 .top_game{
 	padding-left: 20px;
+}
+.section_3 .container_3 .right_3 .head_3l{
+	width: 60%;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+}
+.section_3 .container_3 .right_3 .head_3r{
+	width: 40%;
+	height: 22px;
+	float: right;
+	text-align: right;
+	line-height: 22px;
+}
+.section_3 .container_3 .right_3 .head_right_3{
+	box-sizing: border-box;
+	border: 1px solid #f4f6f8;
+	padding-bottom: 10px;
+}
+.clear{
+    clear: both;
 }
 .section_3 .container_3 .right_3 .top_game ul li{
 	list-style-type: decimal;
