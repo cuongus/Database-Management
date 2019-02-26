@@ -48,6 +48,9 @@ ul {
 	padding-bottom: 5px;
 	border-bottom: 1px solid #CCCCCC; 
 }
+.ten{
+	float: left;
+}
 .new_1{
 	text-decoration: none;
 }
