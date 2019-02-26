@@ -70,6 +70,9 @@ ul {
     text-align: center;
     border-bottom: 1px solid #CCCCCC; 
 }
+.thu_tu{
+	text-align: center;
+}
 .right{
 	background: #fff;
 	float: right;
@@ -83,12 +86,54 @@ ul {
 	color: #fff;
 
 }
-.game_1 > img{
+
+.anh{
+	width: 30px;
 	margin: 0 4px 0 3px;
 	float: left;
-	position: relative;
-    top: 0;
-    left: -23px;
-    z-index: 1;
-    border: 1px solid #6d6d6d;
 }
+.game {
+	position: relative;
+}
+
+.gameNumberhot {
+	position: absolute;
+	margin-left: 10px;
+	background: red;
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+.gamelist{
+	line-height: 30px;
+}
+
+.game_1 {
+	margin-left: 30px;
+}
+.games {
+	position: relative;
+}
+
+.gameNumberhot1 {
+	position: absolute;
+	margin-left: 10px;
+	background: #818181;;
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+.gamelist1{
+	line-height: 30px;
+}
+
+.game_2 {
+	margin-left: 30px;
+}
+
