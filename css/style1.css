@@ -1,6 +1,7 @@
 .section{
- 	background-color: #ffffff;
+ 	background-color: #f6fcff;
 	font-size: 14px;
+	font-family: 'Merriweather', serif;
 }
 
 .container{
@@ -15,47 +16,58 @@ ul{
 }
 .section a{
 	text-decoration: none;
+	color: #535a5e;
+}
+/* CSS Section_1*/
+.section_2f .container_2f{
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 /* CSS Section_2 */
 .section_2{
-	border-bottom: 2px solid #f4f6f8;
+	background: linear-gradient(to right,#6397aa,#99c873);
 }
-.container_2 {
-	
-}
-.section_2 .container_2 .left_2{
+.left_2{
 	padding-top: 14px;
 }
-.section_2 .container_2 .left_2 a{
+.left_2 a{
 	padding-right: 20px;
-	color: #535a5e;
 	font-size: 40px;
+	color: #f4f6f8;
+	font-weight: 600;
 }
-.section_2 .container_2 .right_2 li{
+.right_2 li{
 	display: inline-block;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.section_2 .container_2 .right_2 a{
+.right_2 a{
 	padding-right: 20px;
 	padding-left: 20px;
-	color: #535a5e;
 	font-size: 20px;
+	font-weight: 400;
+	color: #f4f6f8;
 }
-
 /*CSS Section_3*/
+.section_3{
+	padding-bottom: 100px;
+}
+.section_3 .container_3{
+	padding-top: 50px;
+}
 .game_pc{
 	width: 100%;
 	float: left;
+	padding-bottom: 40px;
 }
 .game_mobile{
 	width: 100%;
 	float: left;
 }
-.section_3 .container_3 .left_3 .head li{
+.left_3 .head li{
 	display: inline-block;
 }
-.section_3 .container_3 .left_3 .head a{
+.left_3 .head a{
 	padding-right: 10px;
 	color: #535a5e;
 }
@@ -64,7 +76,7 @@ ul{
 	float: left;
 	border: 1px solid #cdcdcd;
 	padding: 15px;
-	background-color: #f4f8f8;
+	background-color: #f4f6f8;
 	box-sizing: border-box;
 }
 .item_content{
@@ -83,48 +95,54 @@ ul{
 }
 .tai_khoan{
 	padding-left: 20px;
-}
+	padding-bottom: 20px;}
 .tin_tuc{
 	padding-left: 20px;
-}
+	padding-bottom: 20px;}
 .top_game{
 	padding-left: 20px;
-}
-.section_3 .container_3 .right_3 .head_3l{
+	padding-bottom: 20px;}
+.right_3 .head_3l{
 	width: 60%;
-	height: 22px;
 	float: left;
-	line-height: 22px;
 }
-.section_3 .container_3 .right_3 .head_3r{
+.right_3 .head_3r{
 	width: 40%;
-	height: 22px;
 	float: right;
-	text-align: right;
-	line-height: 22px;
 }
-.section_3 .container_3 .right_3 .head_right_3{
+.right_3 .head_right_3{
 	box-sizing: border-box;
-	border: 1px solid #f4f6f8;
+	border-bottom: 1px solid #cdcdcd;
+	padding-top: 10px;
 	padding-bottom: 10px;
+	background: linear-gradient(to right,#6397aa,#99c873);
 }
-.clear{
-    clear: both;
+.right_3 .head_right_3 a{
+	color: #f4f6f8;
 }
-.section_3 .container_3 .right_3 .top_game ul li{
+.clear{clear: both;}
+.right_3 .top_game ul li{
 	list-style-type: decimal;
 	padding-bottom: 10px;
 }
-.section_3 .container_3 .right_3 .tin_tuc ul li{
-	padding-bottom: 10px;
+.right_3 .tin_tuc ul li{padding-bottom: 10px;}
+.right_3{padding-top: 39px;}
+
+.right_3 .t_content{
+	box-sizing: border-box;
+	border: 1px solid #cdcdcd;
+	background-color: #f4f6f8;
+}
+.right_3 .t_content .tr_space{
+	padding-left: 10px;
+}
+.top_game .tr_space ul{
+	padding-left: 25px;
 }
 /*CSS Section_4*/
-.section_4{
-	padding-top: 100px;
-}
-.section_4 .container_4 .head li{
-	display: inline-block;
-}
-.section_4 .container_4 .head a{
-	padding-right: 20px;
+.section_4{}
+.section_4 .container_4 .head li{display: inline-block;}
+.section_4 .container_4 .head a{padding-right: 15px;}
+.section_4 .container_4 .head{
+	padding-bottom: 10px;
 }
