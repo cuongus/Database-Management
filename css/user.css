@@ -1,3 +1,73 @@
-p {
-	color: red;
+* {
+	margin: 0;
+	padding: 0;
 }
+ul, li {
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+
+.section_1 {
+	background: linear-gradient(to right,#6397aa,#99c873);
+}
+
+.left .form-inline .form-group label {
+	color: #fff;
+}
+
+.left a{
+	color: #fff;
+}
+
+.left p {
+	color: #fff;
+	line-height: 130px;
+	font-size: 36px;
+}
+
+.left a:hover {
+	text-decoration: none;
+}
+
+.form-inline {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.right .checkbox {
+	color: #fff;
+}
+
+
+
+/*-----------------------------*/ 
+
+.section_2 {
+	background: url("../img/background.jpg") ;
+	background-size: auto;
+	padding: 100px;
+}
+
+
+.col-md-6 a {
+	color: #fff;
+}
+
+.name  {
+ 	font-size: 20px;
+ 	padding-top: 30px;
+ 	text-align: center;
+ }
+
+.acc {
+	width: 60%;
+	padding: 20px;
+}
+
+
+
