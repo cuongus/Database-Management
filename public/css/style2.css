@@ -1,0 +1,161 @@
+.section{
+	background-color: #f6fcff;
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+}
+
+.container{
+
+}
+li{
+	list-style-type: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.section a{
+	text-decoration: none;
+	color: #535a5e;
+}
+
+
+/* CSS Section_2 */
+.section_2{
+	background: linear-gradient(to right,#6397aa,#99c873);
+}
+.left_2{
+	padding-top: 14px;
+}
+.left_2 a{
+	padding-right: 20px;
+	font-size: 40px;
+	color: #f4f6f8;
+	font-weight: 600;
+}
+.right_2 li{
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.right_2 a{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #f4f6f8;
+}
+/*CSS Section_3*/
+.section_3{
+	padding-bottom: 100px;
+}
+.section_3 .container_3{
+	padding-top: 50px;
+}
+.game_pc{
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+.left_3 .head li{
+	display: inline-block;
+}
+.left_3 .head a{
+	padding-right: 10px;
+	color: #535a5e;
+}
+
+.item {
+	width: 100%;
+	float: left;
+	border: 1px solid #cdcdcd;
+	padding: 15px;
+	background-color: #f4f6f8;
+	box-sizing: border-box;
+}
+.i_news{
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.pic{
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.n_title h5{
+	font-weight: bold;
+}
+.info{
+	padding-top: 10px;
+}
+.info_space{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.n_content a{
+	font-style: italic;
+}
+.tai_khoan{
+	padding-bottom: 20px;}
+.tin_tuc{
+	padding-bottom: 20px;}
+.top_game{
+	padding-bottom: 20px;}
+.right_3 .head_3l{
+	width: 60%;
+	float: left;
+}
+.right_3 .head_3r{
+	width: 40%;
+	float: right;
+}
+.right_3 .head_right_3{
+	box-sizing: border-box;
+	border-bottom: 1px solid #cdcdcd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(to right,#6397aa,#99c873);
+}
+.right_3 .head_right_3 a{
+	color: #f4f6f8;
+}
+.clear{clear: both;}
+.right_3 .top_game ul li{
+	padding-bottom: 10px;
+}
+.right_3 .tin_tuc ul li{padding-bottom: 10px;}
+.right_3{padding-top: 39px;}
+
+.right_3 .t_content{
+	box-sizing: border-box;
+	border: 1px solid #cdcdcd;
+	background-color: #f4f6f8;
+}
+.right_3 .t_content .tr_space{
+	padding-left: 10px;
+}
+.top_game .number{
+	background: #818181;;
+	padding: 0 5px;
+	color: #fff;
+}
+.top_game .pic_1{
+	width: 40px;
+	position: relative;
+	margin: 0 auto;
+	padding: 6px;
+	text-align: center;
+}
+/*CSS Section_4*/
+.section_4{}
+.section_4 .container_4 .head li{display: inline-block;}
+.section_4 .container_4 .head a{padding-right: 15px;}
+.section_4 .container_4 .head{
+	padding-bottom: 10px;
+}
