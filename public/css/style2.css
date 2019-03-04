@@ -47,7 +47,7 @@ ul{
 }
 /*CSS Section_3*/
 .section_3{
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 }
 .section_3 .container_3{
 	padding-top: 50px;
@@ -91,6 +91,10 @@ ul{
 .n_title h5{
 	font-weight: bold;
 }
+.n_title:hover h5{
+	color: #d43f3a;
+	text-decoration: underline;
+}
 .info{
 	padding-top: 10px;
 }
@@ -100,6 +104,10 @@ ul{
 }
 .n_content a{
 	font-style: italic;
+}
+.n_content a:hover{
+	color: #4cae4c;
+	font-weight: bold;
 }
 .tai_khoan{
 	padding-bottom: 20px;}
@@ -153,9 +161,15 @@ ul{
 	text-align: center;
 }
 /*CSS Section_4*/
-.section_4{}
+.section_4{
+	padding-bottom: 30px;
+}
 .section_4 .container_4 .head li{display: inline-block;}
 .section_4 .container_4 .head a{padding-right: 15px;}
 .section_4 .container_4 .head{
 	padding-bottom: 10px;
+}
+.section_4 .head li:hover a{
+	color: #ff5912;
+	text-decoration: underline;
 }

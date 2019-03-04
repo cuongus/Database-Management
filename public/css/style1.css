@@ -49,13 +49,10 @@ ul{
 	color: #f4f6f8;
 }
 .right_2 li:hover a{
-	color: #d43f3a;
+	color: #8c8c8c;
 }
 .right_2 li:hover{
-	background-color: #f2dede;
-	box-sizing: border-box;
-	border-radius: 20px;
-	border: 3px solid #8c8c8c;
+	background-color: #f4f6f8;
 }
 /*CSS Section_3*/
 .section_3{
@@ -100,6 +97,9 @@ ul{
 }
 .text_1 a{
 	display: block;
+}
+.text_1 .tit_pic{
+	font-weight: bold;
 }
 .fighover .b_title{
 	font-weight: bold;
@@ -182,13 +182,31 @@ ul{
 	padding: 6px;
 	text-align: center;
 }
+.top_game .list_right3 li:hover span{
+	color: #4cae4c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tin_tuc .list_right3 li:hover a{
+	color: #4cae4c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.head_3r a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+	text-decoration: underline;
+}
 /*CSS Section_4*/
 .section_4{
-	padding-bottom: 50px;
-	background: linear-gradient(to bottom,#8c8c8c,#ffffff);
+	padding-bottom: 30px;
 }
 .section_4 .container_4 .head li{display: inline-block;}
 .section_4 .container_4 .head a{padding-right: 15px;}
 .section_4 .container_4 .head{
 	padding-bottom: 10px;
+}
+.section_4 .head li:hover a{
+	color: #ff5912;
+	text-decoration: underline;
 }
