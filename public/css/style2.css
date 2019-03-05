@@ -45,6 +45,12 @@ ul{
 	font-weight: 400;
 	color: #f4f6f8;
 }
+.right_2 li:hover a{
+	color: #8c8c8c;
+}
+.right_2 li:hover{
+	background-color: #f4f6f8;
+}
 /*CSS Section_3*/
 .section_3{
 	padding-bottom: 20px;
@@ -159,6 +165,51 @@ ul{
 	margin: 0 auto;
 	padding: 6px;
 	text-align: center;
+}
+
+.top_game .list_right3 li:hover span{
+	color: #4cae4c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tin_tuc .list_right3 li:hover a{
+	color: #4cae4c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.head_3r a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.head_3l a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+}
+.tk a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+}
+.taikhoan_dn1{
+	width: 50%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+	border-right: 1px solid #9d9d9d;
+}
+.taikhoan_dn2{
+	width: 50%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+.taikhoan_dn2:hover{
+	background: #4cae4c;
+}
+.taikhoan_dn1:hover{
+	background: #4cae4c;
 }
 /*CSS Section_4*/
 .section_4{

@@ -18,7 +18,7 @@ ul{
 	text-decoration: none;
 	color: #535a5e;
 }
-/* CSS Section_1*/
+/* CSS Section_2f*/
 .section_2f .container_2f{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -83,13 +83,11 @@ ul{
 	border: 1px solid #cdcdcd;
 	padding: 15px;
 	background-color: #f4f6f8;
-	box-sizing: border-box;
 	position: relative;
 }
 .pic{
 	margin: 0 auto;
-	padding: 10px;
-	text-align: center;
+	display: block;
 }
 .text_1{
 	padding: 10px;
@@ -101,6 +99,12 @@ ul{
 .text_1 .tit_pic{
 	font-weight: bold;
 }
+.item_content .tit_pic:hover{
+	font-weight: bold;
+	color: #4cae4c;
+	text-decoration: underline;
+}
+
 .fighover .b_title{
 	font-weight: bold;
 	color: #0f0f0f;
@@ -109,13 +113,23 @@ ul{
 	font-style: italic;
 	color: #0f0f0f;
 }
-/* hover*/
+.but_add{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+.but_add button{
+	font-size: 8px;
+	font-weight: bold;
+}
+
 .fighover{
 	opacity: 0;
 	position: absolute;
 	margin: 0 auto;
 	top: 10%;
 	left: 15px;
+    display: none;
 
 }
 .item:hover .fighover{
@@ -125,11 +139,6 @@ ul{
 .item:hover .item_content{
 	opacity: 0.3;
 }
-.fighover .b_titleh:hover{
-	color: #d43f3a;
-	text-decoration: underline;
-}
-
 
 .tai_khoan{
 	padding-bottom: 20px;}
@@ -196,6 +205,35 @@ ul{
 	color: #d43f3a;
 	font-weight: bold;
 	text-decoration: underline;
+}
+.head_3l a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+}
+.tk a:hover{
+	color: #d43f3a;
+	font-weight: bold;
+}
+.taikhoan_dn1{
+	width: 50%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+	border-right: 1px solid #9d9d9d;
+}
+.taikhoan_dn2{
+	width: 50%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+.taikhoan_dn2:hover{
+	background: #4cae4c;
+}
+.taikhoan_dn1:hover{
+	background: #4cae4c;
 }
 /*CSS Section_4*/
 .section_4{

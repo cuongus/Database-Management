@@ -40,7 +40,8 @@ MongoClient.connect(url, function (err, db) {
 
       var collection_2 = database.collection("trang_chu");
       app.get("/list_gamepc",function(req,res){
-        collection_2.find({}).limit(6).toArray(function (err, result){
+        var  page = parseInt(req.query.page);
+        collection_2.find({}).skip(6*page-6).limit(6).toArray(function (err, result){
       if (err) {
         
       } else if (result.length) {
