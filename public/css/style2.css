@@ -213,7 +213,12 @@ ul{
 }
 /*CSS Section_4*/
 .section_4{
+	padding-top: 10px;
 	padding-bottom: 30px;
+}
+.section_4 .container_4{
+	padding-top: 10px;
+	border-top: 1px solid #8c8c8c;
 }
 .section_4 .container_4 .head li{display: inline-block;}
 .section_4 .container_4 .head a{padding-right: 15px;}
