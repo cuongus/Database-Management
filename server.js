@@ -41,7 +41,7 @@ MongoClient.connect(url, function (err, db) {
       var collection_2 = database.collection("trang_chu");
       app.get("/list_gamepc",function(req,res){
         var  page = parseInt(req.query.page);
-        collection_2.find({}).skip(6*page-6).limit(6).toArray(function (err, result){
+        collection_2.find({name_id: "pc"}).skip(6*page-6).limit(6).toArray(function (err, result){
       if (err) {
         
       } else if (result.length) {
@@ -49,6 +49,23 @@ MongoClient.connect(url, function (err, db) {
       } else {
         res.send([]);
       }
+
+      });
+      //Close connection
+      //db.close();
+    });
+
+    var collection_3 = database.collection("trang_chu");
+    app.get("/list_gamemobile",function(req,res){
+      var  page = parseInt(req.query.page);
+      collection_3.find({name_id: "mobile"}).skip(6*page-6).limit(6).toArray(function (err, result){
+        if (err) {
+
+        } else if (result.length) {
+          res.send(result);
+        } else {
+          res.send([]);
+        }
 
       });
       //Close connection

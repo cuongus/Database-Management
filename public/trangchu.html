@@ -49,7 +49,7 @@
 					<img src="images/overwatch_3.jpg" data-thumb="images/overwatch_3.jpg" alt="" />
 					<img src="images/spider_man.jpg" data-thumb="images/spider_man.jpg" alt=""
 						 title="This is an example of a caption"s />
-					<img src="images/lol_annie.jpg" data-thumb="images/lol_annie.jpg" alt="" />
+					<img src="images/battlefield_5.jpg" data-thumb="images/battlefield_5.jpg" alt="" />
 				</div>
 			</div>
 		</div> <!-- end container_2f -->
@@ -67,6 +67,7 @@
 					</div> <!-- end head -->
 					<div class="bot" id="item_1">
 
+						/* Game PC Content */
 
 					</div> <!-- end bot-->
                     <div class="next_cont">
@@ -98,47 +99,9 @@
 						</ul>
 					</div> <!-- end head -->
 					<div class="bot" id="item_2">
-						<div class="item">
-							<div class="item_content">
-								<div class="pic">
-									<a href="#"><img src="https://farm8.staticflickr.com/7876/40243846563_7b9414edec_m.jpg"></a>
-								</div>
-								<div class="text_1">
-									<a class="tit_pic" href="#">Game Mobile Free World</a>
-									<p>505.301 lượt thích</p>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="item_content">
-								<div class="pic">
-									<a href="#"><img src="https://farm8.staticflickr.com/7876/40243846563_7b9414edec_m.jpg"></a>
-								</div>
-								<div class="text_1">
-									<a class="tit_pic" href="#">Game Mobile Free World</a>
-									<p>505.301 lượt thích</p>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="item_content">
-								<div class="pic">
-									<a href="#"><img src="https://farm8.staticflickr.com/7876/40243846563_7b9414edec_m.jpg"></a>
-								</div>
-								<div class="text_1">
-									<a class="tit_pic" href="#">Game Mobile Free World</a>
-									<p>505.301 lượt thích</p>
-								</div>
-							</div>
-							<div class="fighover">
-								<div class="fi_cont">
-									<p><a class="b_title b_titleh" href="#">Game Mobile Free World</a></p>
-									<p><span class="b_title">Thể loại:</span> <span class="i_conte">MOBA</span></p>
-									<p><span class="b_title">Giới thiệu:</span> <span class="i_conte">Là thể loại game bắn súng góc nhìn thứ nhất</span></p>
-									<p><span class="b_title">Nhà phát hành:</span> <span class="i_conte">Tencent</span></p>
-								</div>
-							</div>
-						</div>
+
+						/* Game Mobile Content */
+
 					</div> <!-- end bot-->
                     <div class="next_cont">
                         <nav aria-label="Page navigation example">
@@ -300,6 +263,45 @@
                 }
             });
 	</script>
+
+	<script>
+		$.ajax({
+			url: 'http://localhost:3333/list_gamemobile',
+			method: "GET",
+			success: function(result){
+				console.log(result);
+				var list = result;
+				var content_html = '';
+				for (var i = 0; i < list.length; i++) {
+					content_html += '<div class="item">';
+
+					content_html +=  	'<div class="fighover" id="fig1">';
+					content_html +=		'<div class="fi_cont">';
+					content_html +=		'<p><a class="b_title b_titleh" href="#">'+list[i].title+'</a></p>';
+					content_html += 	'<p><span class="b_title">Thể loại:</span> <span class="i_conte">'+list[i].the_loai+'</span></p>';
+					content_html += 	'<p><span class="b_title">Giới thiệu:</span> <span class="i_conte">'+list[i].gioi_thieu+'</span></p>';
+					content_html += 	'<p><span class="b_title">Nhà phát hành:</span> <span class="i_conte">'+list[i].nha_sx+'</span></p>';
+					content_html += 	'</div>';
+					content_html += 	'</div>';
+
+
+					content_html += '<div class="item_content">';
+					content_html += '<div class="box_pic">';
+					content_html += '<a href="#"><img class="pic" src="'+list[i].pic+'"></a>';
+					content_html += '</div>';
+					content_html += '<div class="text_1">';
+					content_html += '<a class="tit_pic" href="#">'+list[i].title+'</a>';
+					content_html += '<a href="#">Lượt tải: '+list[i].like +'</a>';
+					content_html += '</div>';
+					content_html += '</div>';
+
+					content_html += '</div>';
+				}
+				document.getElementById("item_2").innerHTML =  content_html;
+			}
+		});
+	</script>
+
 	<script>
 		// nivo slider
 		$(window).load(function() {
